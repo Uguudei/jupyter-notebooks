@@ -1,2 +1,2 @@
 # jupyter-notebooks
-Jupyter notebooks for testing
+Jupyter notebook examples
