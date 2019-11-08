@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "/opt/tljh/user/envs/ds_python37/bin/python",
+    "python.dataScience.jupyterServerURI": "local",
+    "python.dataScience.notebookFileRoot": "${fileDirname}"
+}
