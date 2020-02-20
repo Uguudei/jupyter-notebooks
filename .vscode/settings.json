@@ -1,5 +1,6 @@
 {
-    "python.pythonPath": "/opt/tljh/user/envs/ds_python37/bin/python",
+    "python.pythonPath": "/opt/tljh/user/envs/pytorch11/bin/python",
     "python.dataScience.jupyterServerURI": "local",
-    "python.dataScience.notebookFileRoot": "${fileDirname}"
+    "python.dataScience.notebookFileRoot": "${fileDirname}",
+    "git.alwaysShowStagedChangesResourceGroup": true
 }
