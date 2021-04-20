@@ -1,6 +1,25 @@
 {
-    "python.pythonPath": "/opt/tljh/user/envs/pytorch11/bin/python",
-    "python.dataScience.jupyterServerURI": "local",
-    "python.dataScience.notebookFileRoot": "${fileDirname}",
-    "git.alwaysShowStagedChangesResourceGroup": true
+    "python.pythonPath": "venv/bin/python",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "files.trimTrailingWhitespace": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "files.autoSave": "afterDelay",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--skip-string-normalization"
+    ],
+    "editor.formatOnSave": true,
+    "files.watcherExclude": {
+        "**/venv": true
+    },
+    "liveServer.settings.ignoreFiles": [
+        "**"
+    ],
+    "jupyter.notebookFileRoot": "workspaceFolder",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.~sql": true,
+        "**/.ipynb_checkpoints": true
+    }
 }
